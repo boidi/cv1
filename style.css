@@ -1,0 +1,74 @@
+div{
+  height: 200px
+}
+li{
+  list-style: none;
+}
+img{
+  border-radius: 100%;
+  width: 200px
+}
+#container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo{
+    z-index: 1;
+  width: 30%;
+  background-color: #F781B
+}
+.titre{
+    z-index: 1;
+  width: 40%;
+  background-color: #F781B
+}
+.presentation{
+    z-index: 1;
+  width: 30%;
+  background-color:  #F781B
+}
+.experiences{
+  height: 400px;
+  width: 30%;
+  background-color: #F6CED8
+}
+
+  .formation{
+    height: 400px;
+    width: 40%;
+    background-color: #F6CED8
+  }
+
+    .loisir{
+      height: 400px;
+      width: 30%;
+      background-color: #F79F81
+    }
+
+    .competences{
+      height: 300px;
+      width: 100%;
+      background-color: #F5A9BC
+    }
+    .left{
+        position: relative;
+    	float: left;
+      width: 50%
+    }
+    .right{
+        position: relative;
+    	float: right;
+      width: 50%
+    }
+    h1{
+      font-style: HelenaScript ES ;
+      color: blue
+    }
+    h2{
+      text-align: center;
+      color: cursive;
+      font-style: Helvetica;
+      font-size: 32px
+
+    }
+    	/*background-color: #F8C471;*/
