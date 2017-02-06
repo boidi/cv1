@@ -42,13 +42,14 @@ img{
     .loisir{
       height: 400px;
       width: 30%;
-      background-color: #F79F81
+      background-color:    #f5ea41 
+
     }
 
     .competences{
       height: 300px;
       width: 100%;
-      background-color: #F5A9BC
+      background-color:  #41abf5
     }
     .left{
         position: relative;
