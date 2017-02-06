@@ -1,19 +1,19 @@
 div{
-  height: 200px
+  height: 200px/*hauteur des div*/
 }
 li{
-  list-style: none;
+  list-style: none; /*pour enlever les puces*/
 }
 img{
-  border-radius: 100%;
+  border-radius: 100%;/*arrondis les contours de l'image*/
   width: 200px
 }
 #container{
-  display: flex;
-  flex-wrap: wrap;
+  display: flex;/*permet aux div d'être disposés de façon horizontal*/
+  flex-wrap: wrap;/*autorise les div à revenir à la ligne s'il n'y a plus d'espace*/
 }
 .photo{
-    z-index: 1;
+    z-index: 1;/*fixe cette div audessus des autres div*/
   width: 30%;
   background-color: #F781B
 }
@@ -30,19 +30,19 @@ img{
 .experiences{
   height: 400px;
   width: 30%;
-  background-color: #F6CED8
+  background-color: #F6CED8/*couleur de fond*/
 }
 
   .formation{
-    height: 400px;
-    width: 40%;
+    height: 400px;/*hauteur de la div*/
+    width: 40%;/*largeur de la div*/
     background-color: #F6CED8
   }
 
     .loisir{
       height: 400px;
       width: 30%;
-      background-color:    #f5ea41 
+      background-color:    #f5ea41
 
     }
 
